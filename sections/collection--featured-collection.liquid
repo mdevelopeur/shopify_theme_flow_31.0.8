@@ -108,7 +108,7 @@
 
       <div class="grid__item {{ grid_item_width }} featured-product--grid-item">
 
-        <div class="grid-view-item">
+        <div class="grid-view-item">#
           <div class="grid-view-item-image">
 
             {% if settings.hover-effect %}
@@ -145,7 +145,7 @@
               <div class="product-grid--title">
                 <a href="{{ product.url | within: collection }}">{{ product.title }}</a>
               </div>
-              <div class="product-grid--price">!
+              <div class="product-grid--price">#
                 {% render 'product-grid-item-price', product: product, collection: collection %}
               </div>
             </div>
