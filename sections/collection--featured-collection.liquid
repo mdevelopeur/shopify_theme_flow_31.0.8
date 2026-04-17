@@ -108,7 +108,7 @@
 
       <div class="grid__item {{ grid_item_width }} featured-product--grid-item">
 
-        <div class="grid-view-item">##
+        <div class="grid-view-item">
           <div class="grid-view-item-image">
 
             {% if settings.hover-effect %}
@@ -142,10 +142,10 @@
               {% if section.settings.show-vendor %}
                 <div class="product-grid--vendor-text">{{ product.vendor }}</div>
               {% endif %}
-              <div class="product-grid--title">title
+              <div class="product-grid--title">
                 <a href="{{ product.url | within: collection }}">{{ product.title }}</a>
               </div>
-              <div class="product-grid--price" style="display: block">?
+              <div class="product-grid--price" style="display: block">
                 {% render 'product-grid-item-price', product: product, collection: collection %}
               </div>
             </div>
@@ -184,7 +184,7 @@
 
       {% for i in (1..product_limit) %}
         <div class="grid__item {{ grid_item_width }} featured-product--grid-item">
-          <div class="grid-view-item">?#
+          <div class="grid-view-item">
             <a href="/admin/products" class="grid-view-item__link" tabindex="-1">
               {% if image_crop %}<div class="aspect-ratio {{ image_crop }}">{% endif %}
                   <div class="grid-view-item__image">
