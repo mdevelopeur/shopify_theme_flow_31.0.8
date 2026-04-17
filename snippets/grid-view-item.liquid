@@ -32,11 +32,11 @@
 
         {% if enable_badges %}
           {% if product.compare_at_price_max > product.price and product.available %}
-            <div class="sale-badge badge">{{ 'products.product.on_sale' | t }}</div>
+            <div class="sale-badge badge">{{ 'products.product.status' | t }}</div>
           {% endif %}
 
           {% unless product.available %}
-            <div class="sold-out-badge badge">{{ 'products.product.sold_out' | t }}</div>
+            <div class="sold-out-badge badge">{{ 'products.product.status' | t }}</div>
           {% endunless %}
         {% endif %}
 
