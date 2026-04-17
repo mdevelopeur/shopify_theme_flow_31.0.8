@@ -32,7 +32,7 @@
 
         {% if enable_badges %}
           {% if product.compare_at_price_max > product.price and product.available %}
-            <div class="sale-badge badge">{{ 'products.product.on_sale' | t }}!</div>
+            <div class="sale-badge badge">{{ 'products.product.on_sale' | t }}</div>
           {% endif %}
 
           {% unless product.available %}
@@ -63,14 +63,14 @@
         {% endif %}
 
       </div>
-    <div class="product-grid--price" data-block-type="product_card_price"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_price","type":"product_card_price"}'{% endif %}>
-        {%- render 'product-grid-item-price', product: product, collection: collection -%}
-      </div>
+ 
     {%- when 'product_card_title' -%}
       <div class="product-grid--title" data-block-type="product_card_title"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_title","type":"product_card_title"}'{% endif %}>
         <a href="{{ product.url | within: collection }}">{{ product.title }}</a>
       </div>
-
+   <div class="product-grid--price" data-block-type="product_card_price"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_price","type":"product_card_price"}'{% endif %}>
+        {%- render 'product-grid-item-price', product: product, collection: collection -%}
+      </div>
     {%- when 'product_card_vendor' -%}
       <div class="product-grid--vendor-text" data-block-type="product_card_vendor"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_vendor","type":"product_card_vendor"}'{% endif %}>{{ product.vendor }}</div>
 
