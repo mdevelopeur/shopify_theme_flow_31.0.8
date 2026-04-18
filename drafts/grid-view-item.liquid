@@ -5,10 +5,17 @@
 {% comment %}
    data field block
 {% endcomment %}
-   <div class="item-data-field"> 
+   <div class="custom-item-data-field"> 
       <span>{{metafield.name}}:</span>
       <span>{{metafield.value}}</span>
    </div>
 
+{% comment %}
+   title block
+{% endcomment %}
+    <div class="custom-item-title">
+       <div class="custom-item-title-left-block">{{product.title}}</div>
+       <div class="custom-item-title-right-block">{{product.price}}</div>
+    </div>
 
       
