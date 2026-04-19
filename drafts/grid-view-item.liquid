@@ -18,4 +18,17 @@
        <div class="custom-item-title-right-block">{{product.price}}</div>
     </div>
 
-      
+ 
+{% comment %}
+   status badge
+{% endcomment %}
+     <div class="status-badge">
+         {{product.metafields.custom.status}}
+     </div>
+  
+{% comment %}
+   state badge
+{% endcomment %}
+    <div class="state-badge">
+         {{product.metafields.custom.state}}
+     </div>
