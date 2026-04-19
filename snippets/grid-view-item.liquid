@@ -95,7 +95,7 @@
              <span>{{metafields.birthdate.value | date: "%B %d, %Y"}}</span>
           </div> 
       
-        </div>
+       <!-- </div> -->
       
     {% comment %}
       <div class="product-grid--title" data-block-type="product_card_title"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_title","type":"product_card_title"}'{% endif %}>
@@ -128,6 +128,8 @@
           <a class="sold-out-button" tabindex="0" href="{{ product.url | within: collection }}">{{ 'products.product.sold_out' | t }}</a>
         {% endif %}
       </div>
+     </div>
     {%- endcase -%}
   {%- endfor -%}
+  
 </div>
