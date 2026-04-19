@@ -14,6 +14,7 @@
     {% assign image_crop = false %}
     {% assign image_stretch = false %}
 {% endif %}
+    {% assign metafields = product.metafields.custom %}
 
 {% comment %} Construct block order {% endcomment %}
 {% assign block_order = blocks | split: "," %}
