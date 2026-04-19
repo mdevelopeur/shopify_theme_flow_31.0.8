@@ -8,10 +8,10 @@
 
 }
 
-.grid-view-itemh {
+.grid-view-item {
    display: grid;
    justify-content: space-evenly;
-   gap: 2%;
+   gap: 3%;
 
 }
 
