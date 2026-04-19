@@ -5,7 +5,8 @@
 }
 
 .custom-item-data-block {
-   display: flex;
+   display: grid;
+
    gap: 3%;
 
 
