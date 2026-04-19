@@ -5,8 +5,7 @@
 }
 
 .custom-item-data-block {
-   display: grid;
-}  justify-content: space-evenly;
+   display: flex;
    gap: 3%;
 
 
