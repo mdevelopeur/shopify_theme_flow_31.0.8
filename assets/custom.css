@@ -7,8 +7,8 @@
 .custom-item-data-block {
    display: grid;
    align-content: space-evenly;
-   gap: 2%;
-   margin-top: 2%;
+   gap: 3%;
+   margin-top: 3%;
 
 
 .grid-view-item {
@@ -42,5 +42,6 @@
    border: thin solid pink;
    display: flex;
    justify-content: space-between;
+   padding: 3%;
 
 }
