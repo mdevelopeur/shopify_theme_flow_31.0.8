@@ -23,14 +23,14 @@
 }
 
 .custom-item-title-title-block {
-   padding: 3%;
+   padding: 5%;
    flex-grow: 1;
    background-color: pink;
 
 }
 
 .custom-item-title-price-block {
-   padding: 3%;
+   padding: 5%;
    flex-grow: 1;
    width: fit-content;
    border: thin solid pink;
