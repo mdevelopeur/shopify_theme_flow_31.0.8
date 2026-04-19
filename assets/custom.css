@@ -9,6 +9,7 @@
    align-content: space-evenly;
    gap: 3%;
    margin-top: 3%;
+   container-type: inline-size;
 
 
 .grid-view-item {
@@ -20,7 +21,7 @@
   
    display: flex;
    gap: 5%;
-   container-type: inline-size;
+   
 }
 
 .custom-item-title-title-block {
