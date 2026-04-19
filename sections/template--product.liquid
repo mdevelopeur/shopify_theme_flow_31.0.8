@@ -152,7 +152,7 @@
                       {% else %}
 
                       <h3>Add Ons?!</h3>
-                      <div id="addons" style="display: flex; flex-direction: column;">
+                      <div id="addons" style="display: flex; flex-direction: row;">
 
                       {% if product.tags contains "no-sterilization" %} 
 
@@ -160,7 +160,7 @@
                         {% unless product.title contains 'Sterilization' %}
                             <label>
                               <input type="checkbox" name="id" value="{{ product.variants[0].id }}">
-                             {{ product.title }} - {{ product.price | money }}
+                             {{ product.title }}
                             </label>
                           {% endunless %}
                         {% endfor %}
