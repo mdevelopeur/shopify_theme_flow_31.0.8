@@ -68,12 +68,13 @@
       </div>
  
     {%- when 'product_card_title' -%}
-       <div class="custom-item-title-block">
-          <div class="custom-item-title-title-block" data-block-type="product_card_title"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_title","type":"product_card_title"}'{% endif %}>
-             <a href="{{ product.url | within: collection }}">{{ product.title }}</a>
+       <div class="custom-item-data-block">
+          <div class="custom-item-title-block">
+             <div class="custom-item-title-title-block" data-block-type="product_card_title"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_title","type":"product_card_title"}'{% endif %}>
+                <a href="{{ product.url | within: collection }}">{{ product.title }}</a>
 </div>
-          <div class="custom-item-title-price-block" data-block-type="product_card_price"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_price","type":"product_card_price"}'{% endif %}>{{product.price | money}}</div>
-       </div>
+             <div class="custom-item-title-price-block" data-block-type="product_card_price"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_price","type":"product_card_price"}'{% endif %}>{{product.price | money}}</div>
+          </div>
 
           <div class="custom-item-data-field"> 
              <span>Breed:</span>
@@ -91,6 +92,7 @@
              <span>Date of Birth:</span>
              <span>{{metafields.birthdate.value | date: "%B %d, %Y"}}</span>
           </div> 
+        </div>
     {% comment %}
       <div class="product-grid--title" data-block-type="product_card_title"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_title","type":"product_card_title"}'{% endif %}>
         <a href="{{ product.url | within: collection }}">{{ product.title }}</a>
