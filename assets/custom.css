@@ -4,6 +4,12 @@
 
 }
 
+.custom-item-data-block {
+
+   gap: 5%;
+
+}
+
 .custom-item-title-block {
   
    display: flex;
