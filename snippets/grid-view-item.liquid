@@ -68,9 +68,9 @@
       </div>
  
     {%- when 'product_card_title' -%}
-      {% comment %}
+     
        <div class="custom-item-data-block">
-      {% endcomment %}
+     
           <div class="custom-item-title-block">
              <div class="custom-item-title-title-block" data-block-type="product_card_title"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_title","type":"product_card_title"}'{% endif %}>
                 <a href="{{ product.url | within: collection }}">{{ product.title }}</a>
@@ -94,9 +94,9 @@
              <span>Date of Birth:</span>
              <span>{{metafields.birthdate.value | date: "%B %d, %Y"}}</span>
           </div> 
-       {% comment %}
+      
         </div>
-       {% endcomment %}
+      
     {% comment %}
       <div class="product-grid--title" data-block-type="product_card_title"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_title","type":"product_card_title"}'{% endif %}>
         <a href="{{ product.url | within: collection }}">{{ product.title }}</a>
