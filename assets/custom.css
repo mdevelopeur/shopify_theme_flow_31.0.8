@@ -1,1 +1,30 @@
 /* Place any CSS overrides in this file. */
+
+.custom-product-page-details {
+
+}
+
+.custom-item-title-block {
+
+}
+
+.custom-item-title-title-block {
+
+   background-color: pink;
+
+}
+
+.custom-item-title-price-block {
+
+   width: fit-content;
+   border: thin solid pink;
+
+}
+
+.custom-item-data-field {
+
+   border: thin solid pink;
+   display: flex;
+   justify-content: space-between;
+
+}
