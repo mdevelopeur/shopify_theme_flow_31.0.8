@@ -6,8 +6,7 @@
 
 .custom-item-data-block {
    display: grid;
-
-   gap: 3%;
+   align-content: space-evenly;
 
 
 .grid-view-item {
