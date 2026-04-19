@@ -7,6 +7,8 @@
 .custom-item-title-block {
   
    display: flex;
+   justify-content: space-between;
+
 }
 
 .custom-item-title-title-block {
