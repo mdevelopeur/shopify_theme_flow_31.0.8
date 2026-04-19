@@ -6,5 +6,11 @@
 
 
 <div class="custom-product-page-details">
-   
+   <div class="custom-item-title-block">
+      <div class="custom-item-title-left-block">{{product.title}}</div>
+      <div class="custom-item-title-right-block">{{product.price}}</div>
+   </div>
+   {% for metafield in product.metafields.custom %}
+      
+   {% endfor %}
 </div>
