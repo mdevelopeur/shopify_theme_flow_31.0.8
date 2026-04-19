@@ -7,8 +7,7 @@
 .custom-item-title-block {
   
    display: flex;
-   justify-content: stretch;
-   gap: 5vw;
+   gap: 5%;
 }
 
 .custom-item-title-title-block {
