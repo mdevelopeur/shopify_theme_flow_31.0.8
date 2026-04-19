@@ -23,6 +23,8 @@
 }
 
 .custom-item-title-title-block {
+
+   font-size: 5em;
    padding: 5%;
    flex-grow: 1;
    background-color: pink;
@@ -30,6 +32,8 @@
 }
 
 .custom-item-title-price-block {
+
+   font-size: 5em;
    padding: 5%;
    flex-grow: 1;
    width: fit-content;
