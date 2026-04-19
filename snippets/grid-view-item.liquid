@@ -65,12 +65,37 @@
       </div>
  
     {%- when 'product_card_title' -%}
+       <div class="custom-item-title-block">
+          <div class="custom-item-title-left-block" data-block-type="product_card_title"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_title","type":"product_card_title"}'{% endif %}>
+             <a href="{{ product.url | within: collection }}">{{ product.title }}</a>
+</div>
+          <div class="custom-item-title-right-block" data-block-type="product_card_price"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_price","type":"product_card_price"}'{% endif %}>{{product.price}}</div>
+       </div>
+
+          <div class="custom-item-data-field"> 
+             <span>Breed:</span>
+            <span>{{metafields.breed.value}}</span>
+          </div> 
+          <div class="custom-item-data-field"> 
+             <span>Color:</span>
+             <span>{{metafields.color.value}}</span>
+          </div> 
+          <div class="custom-item-data-field"> 
+             <span>Gender:</span>
+            <span>{{metafields.sex.value}}</span>
+          </div> 
+          <div class="custom-item-data-field"> 
+             <span>Date of Birth:</span>
+             <span>{{metafields.birth.value}}</span>
+          </div> 
+    {% comment %}
       <div class="product-grid--title" data-block-type="product_card_title"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_title","type":"product_card_title"}'{% endif %}>
         <a href="{{ product.url | within: collection }}">{{ product.title }}</a>
       </div>
    <div class="product-grid--price" data-block-type="product_card_price"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_price","type":"product_card_price"}'{% endif %}>
         {%- render 'product-grid-item-price', product: product, collection: collection -%}
       </div>
+    {% endcomment %}
     {%- when 'product_card_vendor' -%}
       <div class="product-grid--vendor-text" data-block-type="product_card_vendor"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_vendor","type":"product_card_vendor"}'{% endif %}>{{ product.vendor }}</div>
 
