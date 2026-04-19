@@ -89,7 +89,7 @@
           </div> 
           <div class="custom-item-data-field"> 
              <span>Date of Birth:</span>
-             <span>{{metafields.birthdate.value}}</span>
+             <span>{{metafields.birthdate.value | date: "%B %d, %Y"}}</span>
           </div> 
     {% comment %}
       <div class="product-grid--title" data-block-type="product_card_title"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_title","type":"product_card_title"}'{% endif %}>
