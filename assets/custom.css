@@ -12,6 +12,7 @@
 
 .grid-view-item {
    display: flex;
+   gap: 2%;
 }
 
 .custom-item-title-block {
