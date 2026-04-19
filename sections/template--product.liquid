@@ -124,14 +124,14 @@
 
             <div>
 
-              <div class="product-details-wrapper">
+              <div class="product-details-wrapper">?
 
               <div itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="product-details--form-wrapper{% if product.available %} product-details--form-wrapper---in-stock{% else %} product-details--form-wrapper---out-of-stock{% endif %}">
                 <meta itemprop="priceCurrency" content="{{ shop.currency }}">
                 <meta itemprop="url" content="{{ shop.url }}{{ product.url }}">
                 <link itemprop="availability" href="http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}">
 
-                <div class="form-vertical">
+                <div class="form-vertical">*
               
                   {% form 'product', product, id: "AddToCartForm" %}
 
