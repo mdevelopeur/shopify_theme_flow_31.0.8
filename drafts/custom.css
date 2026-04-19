@@ -6,43 +6,28 @@
 
 }
 
-.custom-item-title-left-block {
+.custom-item-title-title-block {
+
+   background-color: pink;
 
 }
 
-.custom-item-title-right-block {
+.custom-item-title-price-block {
 
-}
-
-.custom-item-data-field {
-
-}
-
-.custom-item-data-field {
+   width: fit-content;
+   border: thin solid pink;
 
 }
 
 .custom-item-data-field {
 
-}
-
-.custom-item-data-field {
+   border: thin solid pink;
+   display: flex;
+   justify-content: space-between;
 
 }
 
 .custom-included-options-list {
-
-}
-
-.custom-included-options-list-item {
-
-}
-
-.custom-included-options-list-item {
-
-}
-
-.custom-included-options-list-item {
 
 }
 
