@@ -20,7 +20,7 @@
 .custom-item-title-block {
   
    display: flex;
-   gap: 5%;
+   gap: 3%;
    
 }
 
@@ -49,6 +49,6 @@
    display: flex;
    justify-content: space-between;
    padding: 3%;
-   font-size: 5cqi;
+   font-size: 6cqi;
 
 }
