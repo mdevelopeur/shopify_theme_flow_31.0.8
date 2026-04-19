@@ -152,13 +152,13 @@
                       {% else %}
 
                       <h3>Add Ons?!</h3>
-                      <div id="addons" style="display: inline-block; white-space: nowrap;">
+                      <div id="addons" style="display: inline-block;">
 
                       {% if product.tags contains "no-sterilization" %} 
 
                       {% for product in block.settings.addons.products %}
                         {% unless product.title contains 'Sterilization' %}
-                            <label>
+                            <label style="white-space: nowrap;">
                               <input type="checkbox" name="id" value="{{ product.variants[0].id }}">
                              {{ product.title }}
                             </label>
@@ -169,7 +169,7 @@
 
                       {% for product in block.settings.addons.products %}
 
-                            <label>
+                            <label style="white-space: nowrap;">
                               <input type="checkbox" name="id" value="{{ product.variants[0].id }}">
                              {{ product.title }}
                             </label>
