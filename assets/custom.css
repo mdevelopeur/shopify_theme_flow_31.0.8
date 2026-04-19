@@ -5,17 +5,20 @@
 }
 
 .custom-item-title-block {
-
+  
+   display: flex;
 }
 
 .custom-item-title-title-block {
-
+  
+   flex-grow: 1;
    background-color: pink;
 
 }
 
 .custom-item-title-price-block {
 
+   flex-grow: 1;
    width: fit-content;
    border: thin solid pink;
 
