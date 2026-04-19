@@ -6,6 +6,9 @@
 
 .custom-item-data-block {
 
+}
+
+.grid-view-item {
    display: grid;
    justify-content: space-evenly;
    gap: 5%;
