@@ -20,6 +20,7 @@
   
    display: flex;
    gap: 5%;
+   container-type: inline-size;
 }
 
 .custom-item-title-title-block {
