@@ -5,12 +5,14 @@
 }
 
 .custom-item-data-block {
+
    display: grid;
    align-content: space-evenly;
    gap: 3%;
    margin-top: 3%;
    container-type: inline-size;
 
+}
 
 .grid-view-item {
    display: flex;
