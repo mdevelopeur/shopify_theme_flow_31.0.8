@@ -40,11 +40,12 @@
 
 .custom-item-title-price-block {
 
+   display: flex;
    font-size: 8cqi;
    flex-grow: 1;
    width: fit-content;
    border: thin solid pink;
-   vertical-align: middle;
+   align-items: center;
 
 }
 
