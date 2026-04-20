@@ -21,6 +21,7 @@
   
    display: flex;
    gap: 3%;
+  
    
 }
 
@@ -31,6 +32,7 @@
    flex-grow: 1.5;
    background-color: pink;
    color: black;
+   height: 3cap;
 
 }
 
