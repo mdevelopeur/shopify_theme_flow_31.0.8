@@ -59,9 +59,10 @@
 
 }
 
-.custom-quick-add-button {
+.custom-view-options-button {
 
    width: 50%;
    background-color: pink;
+   border-radius: 15%;
    
 }
