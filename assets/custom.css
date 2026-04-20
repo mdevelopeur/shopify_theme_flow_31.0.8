@@ -4,7 +4,7 @@
 
 }
 
-.custom-item-data-kblock {
+.custom-item-data-block {
 
    display: grid;
    align-content: space-evenly;
@@ -14,7 +14,7 @@
 
 }
 
-.grid-view-item {
+.grid-view-ithem {
    display: flex;
    gap: 2%;
 }
