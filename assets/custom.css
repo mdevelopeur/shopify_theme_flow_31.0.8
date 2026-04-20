@@ -38,6 +38,12 @@
 
 }
 
+.custom-item-title-title-block a {
+ 
+   color: black;
+
+}
+
 .custom-item-title-price-block {
 
    display: flex;
