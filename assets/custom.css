@@ -11,7 +11,7 @@
    gap: 3%;
    margin-top: 3%;
    container-type: inline-size;
-
+   align-items: center;
 }
 
 .grid-view-ituem {
@@ -71,10 +71,11 @@
 }
 
 .custom-view-options-wrapper {
-
-   width: 70%;
-   background-color: pink;
+ 
    
+   width: 50%;
+   background-color: pink;
+   border-radius: 15px;
    height: 3cap;
    color: black;
    font-size: 6cqi;
