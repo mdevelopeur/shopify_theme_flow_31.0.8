@@ -40,7 +40,6 @@
 .custom-item-title-price-block {
 
    font-size: 8cqi;
-   padding: 5%;
    flex-grow: 1;
    width: fit-content;
    border: thin solid pink;
