@@ -33,6 +33,7 @@
    background-color: pink;
    color: black;
    height: 3cap;
+   align-items: center;
 
 }
 
@@ -43,6 +44,7 @@
    flex-grow: 1;
    width: fit-content;
    border: thin solid pink;
+   align-items: center;
 
 }
 
