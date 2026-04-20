@@ -122,10 +122,10 @@
         {% elsif product.available %}
           {% form 'product', product, id: "CollectionAddToCartForm" %}
             <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
-            <button class="quick-add-button" type="submit" tabindex="0">{{ 'products.product.add_to_cart' | t }}</button>
+            <button class="custom-quick-add-button" type="submit" tabindex="0">{{ 'products.product.add_to_cart' | t }}</button>
           {% endform %}
         {% else %}
-          <a class="sold-out-button" tabindex="0" href="{{ product.url | within: collection }}">{{ 'products.product.sold_out' | t }}</a>
+          <a class="custom-sold-out-button" tabindex="0" href="{{ product.url | within: collection }}">{{ 'products.product.sold_out' | t }}</a>
         {% endif %}
       </div>
      </div>
