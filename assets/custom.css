@@ -27,6 +27,7 @@
 
 .custom-item-title-title-block {
 
+   display: flex;
    font-size: 10cqi;
    padding: 5%;
    flex-grow: 1.5;
