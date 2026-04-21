@@ -33,13 +33,13 @@
 .custom-item-title-title-block {
 
    display: flex;
-   font-size: 8cqi;
+   font-size: 7cqi;
    font-family: var(--header-font-stack);
    padding: 3%;
    flex-grow: 1.5;
    background-color: #fac5d7;
    color: black;
-   height: 3cap;
+   height: 4cap;
    align-items: center;
 
 }
