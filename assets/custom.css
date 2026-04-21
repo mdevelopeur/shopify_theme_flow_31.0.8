@@ -53,7 +53,7 @@
 .custom-item-title-price-block {
 
    display: flex;
-   font-size: 8cqi;
+   font-size: 6cqi;
    font-weight: bold;
    flex-grow: 1;
    width: fit-content;
