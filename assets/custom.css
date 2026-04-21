@@ -99,7 +99,7 @@
    
    display: grid;
    place-items: center;
-   position: absolute;
+   position: relative;
    outline: 5px solid blue;
    outline-offset: -15px; 
    z-index: 1000;
@@ -110,7 +110,5 @@
 .custom-inner-box {
 
     grid-area: 1 / 1;
-    box-sizing: border-box;
-    border: 2px solid black;
 
 }
