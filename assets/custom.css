@@ -55,7 +55,7 @@
    font-size: 8cqi;
    flex-grow: 1;
    width: fit-content;
-   border: thin solid pink;
+   border: thin solid #fac5d7;
    align-items: center;
    justify-content: center;
 
@@ -63,7 +63,7 @@
 
 .custom-item-data-field {
 
-   border: thin solid pink;
+   border: thin solid #fac5d7;
    display: flex;
    justify-content: space-between;
    padding: 2%;
@@ -77,11 +77,11 @@
 
    display: flex; 
    width: 50%;
-   background-color: pink;
+   background-color: #fac5d7;
    border-radius: 15px;
    height: 3cap;
    color: black;
-   font-size: 6cqi;
+   font-size: 5cqi;
    margin: 0 auto;
    align-items: center;
    justify-content: center;
@@ -112,7 +112,7 @@
 .responsive-image-wrapper img,
 .custom-inner-box {
 
-    outline: 1px solid pink;
+    outline: 1px solid #fac5d7;
     outline-offset: -6px; 
 
 }
