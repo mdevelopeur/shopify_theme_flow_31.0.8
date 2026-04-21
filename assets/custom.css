@@ -80,11 +80,11 @@
    color: black;
    font-size: 6cqi;
    margin: 0 auto;
-   align-items: center;
+   place-items: center;
 
 }
 
-.custom-view-options-wrapper {
+.custom-view-options-wrapper a {
 
    color: black;
 
