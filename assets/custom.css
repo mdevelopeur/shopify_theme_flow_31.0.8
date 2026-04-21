@@ -92,7 +92,8 @@
 }
 
 .grid-view-item-image {
-
+ 
+   position:relative;
    outline: 5px solid blue;
    outline-offset: -15px; 
    z-index: 1000;
