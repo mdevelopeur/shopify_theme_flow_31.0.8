@@ -126,14 +126,18 @@
 }
 
 .custom-inner-box {
-  width: 50%;
-  background-color: #fac5d7;
+
+    width: 50%;
+    background-color: #fac5d7;
+    position: absolute;
+    top: 0px;
+    right: 50px; 
 }
 
 
 .custom-status-badge {
 
-    position: relative;
+    position: absolute;
     top: 0px;
     right: 50px;   
     width: 50%;
