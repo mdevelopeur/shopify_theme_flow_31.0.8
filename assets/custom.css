@@ -96,11 +96,19 @@
 }
 
 .responsive-image-wrapper {
- 
+   
+   display: grid;
+   place-items: center;
    position: absolute;
    outline: 5px solid blue;
    outline-offset: -15px; 
    z-index: 1000;
    box-shadow: inset 0 0 0 10px #333; 
+
+}
+
+.custom-inner-box {
+
+    grid-area: 1 / 1;
 
 }
