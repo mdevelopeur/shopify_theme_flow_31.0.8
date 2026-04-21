@@ -133,7 +133,7 @@
     background-color: #fac5d7;
     position: absolute;
     top: 20px;
-    right: 10px;
+    right: -10px;
     z-index: 1;
 
 }
