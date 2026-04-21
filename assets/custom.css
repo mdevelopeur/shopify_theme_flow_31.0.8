@@ -55,7 +55,6 @@
 
    display: flex;
    font-size: 8cqi;
-   font-weight: bold;
    font-family: var(--header-font-stack);
    flex-grow: 1;
    width: fit-content;
