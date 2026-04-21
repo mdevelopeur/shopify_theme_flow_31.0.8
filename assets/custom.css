@@ -110,6 +110,6 @@
 .custom-inner-box {
 
     outline: 1px solid pink;
-    outline-offset: -10%; 
+    outline-offset: 10%; 
 
 }
