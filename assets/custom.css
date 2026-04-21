@@ -35,7 +35,7 @@
    display: flex;
    font-size: 10cqi;
    font-family: var(--header-font-stack);
-   font-weight: 500;
+   font-weight: 900;
    padding: 5%;
    flex-grow: 1.5;
    background-color: #fac5d7;
@@ -55,7 +55,7 @@
 
    display: flex;
    font-size: 8cqi;
-   font-weight: 500;
+   font-weight: bold;
    flex-grow: 1;
    width: fit-content;
    border: thin solid #fac5d7;
