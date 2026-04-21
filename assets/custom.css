@@ -106,7 +106,7 @@
    box-shadow: inset 0 0 0 10px #333; 
 
 }
-
+.responsive-image-wrapper img,
 .custom-inner-box {
 
     grid-area: 1 / 1;
