@@ -118,3 +118,9 @@
     outline-offset: -6px; 
 
 }
+
+.custom-status-badge {
+   
+    border-radius: 15px;
+
+}
