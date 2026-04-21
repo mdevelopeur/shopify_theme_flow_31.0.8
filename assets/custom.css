@@ -15,9 +15,10 @@
    font-size: 5cqi;
 }
 
-.grid-view-ituem {
-   display: flex;
-   gap: 2%;
+.grid-view-item {
+
+   container-type: inline-size;
+
 }
 
 .custom-item-title-block {
