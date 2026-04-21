@@ -134,8 +134,8 @@
 .custom-status-badge {
 
     position: relative;
-    top: 20px;
-    right: 0px;   
+    top: 0px;
+    right: 50px;   
     width: 50%;
     border-radius: 15px;
     background-color: #fac5d7;
