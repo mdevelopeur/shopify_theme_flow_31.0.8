@@ -8,7 +8,7 @@
 
    display: grid;
    
-   gap: 0.5em;
+   gap: 1em;
    margin-top: 3%;
    container-type: inline-size;
    align-items: center;
