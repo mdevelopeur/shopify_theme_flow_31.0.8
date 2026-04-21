@@ -126,7 +126,7 @@
             {% if product.title contains 'Breeding Rights' or product.title contains 'Sterilization' or product.title contains 'Pedigree Certificate' %}
               <!-- Don't run the code -->
             {% else %}
-               <div class="grid__item {{ grid_item_width }}" style="padding-left: 10px; padding-top: 20px;">
+               <div class="grid__item {{ grid_item_width }}" style="padding-left: 15px; padding-top: 20px;">
               {% render 'grid-view-item', product: product, collection: collection, blocks: product_card_blocks, enable_badges: image_block.settings.enable_badges %}
             </div>
             {% endif %}
