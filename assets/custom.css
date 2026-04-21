@@ -90,3 +90,10 @@
    color: black;
 
 }
+
+.grid-view-image {
+
+   outline: 5px solid blue;
+   outline-offset: -5px; 
+
+}
