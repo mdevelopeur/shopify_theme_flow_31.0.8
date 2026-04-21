@@ -115,6 +115,7 @@
 
     outline: 1px solid #fac5d7;
     outline-offset: -6px; 
+    
 
 }
 
@@ -131,4 +132,5 @@
     background-color: #fac5d7;
     position: absolute;
     top: 10;
+    z-index: 1;
 }
