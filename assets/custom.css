@@ -71,7 +71,8 @@
 }
 
 .custom-view-options-wrapper {
-  
+
+   display: flex; 
    width: 50%;
    background-color: pink;
    border-radius: 15px;
