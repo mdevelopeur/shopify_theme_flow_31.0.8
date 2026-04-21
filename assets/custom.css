@@ -80,7 +80,8 @@
    color: black;
    font-size: 6cqi;
    margin: 0 auto;
-   place-items: center;
+   align-items: center;
+   justify-content: center;
 
 }
 
