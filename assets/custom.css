@@ -110,5 +110,7 @@
 .custom-inner-box {
 
     grid-area: 1 / 1;
+    box-sizing: border-box;
+    border: 10px solid black;
 
 }
