@@ -8,10 +8,11 @@
 
    display: grid;
    
-   gap: 3%;
+   gap: 1em;
    margin-top: 3%;
    container-type: inline-size;
    align-items: center;
+   font-size: 5cqi;
 }
 
 .grid-view-ituem {
