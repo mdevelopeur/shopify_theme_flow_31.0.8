@@ -92,6 +92,10 @@
 }
 
 .grid-view-item-image {
+
+}
+
+.resposive-image-wrapper {
  
    position: absolute;
    outline: 5px solid blue;
