@@ -34,7 +34,7 @@
 
    display: flex;
    font-size: 10cqi;
-   font: var(--header-font-stack);
+   font-family: var(--header-font-stack);
    padding: 5%;
    flex-grow: 1.5;
    background-color: #fac5d7;
