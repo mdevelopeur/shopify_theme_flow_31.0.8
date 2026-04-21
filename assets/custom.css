@@ -8,11 +8,12 @@
 
    display: grid;
    
-   gap: 1em;
+   gap: 3%;
    margin-top: 3%;
    container-type: inline-size;
    align-items: center;
    font-size: 5cqi;
+
 }
 
 .grid-view-item {
