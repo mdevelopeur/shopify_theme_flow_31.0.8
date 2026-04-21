@@ -19,6 +19,7 @@
 .grid-view-item {
 
    container-type: inline-size;
+   position: relative;
 
 }
 
