@@ -111,13 +111,18 @@
    box-shadow: inset 0 0 0 10px #333; 
 
 }
-.responsive-image-wrapper img,
-.custom-inner-box {
+.responsive-image-wrapper img {
 
     outline: 1px solid #fac5d7;
     outline-offset: -6px; 
 
 }
+
+.custom-inner-box {
+
+
+}
+
 
 .custom-status-badge {
    
