@@ -33,7 +33,7 @@
 .custom-item-title-title-block {
 
    display: flex;
-   font-size: 10cqi;
+   font-size: 8cqi;
    font-family: var(--header-font-stack);
    font-weight: 900;
    padding: 5%;
