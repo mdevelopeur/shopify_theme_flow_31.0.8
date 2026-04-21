@@ -55,6 +55,7 @@
 
    display: flex;
    font-size: 8cqi;
+   font-weight: 500;
    flex-grow: 1;
    width: fit-content;
    border: thin solid #fac5d7;
