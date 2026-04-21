@@ -110,5 +110,5 @@
 .custom-inner-box {
 
     grid-area: 1 / 1;
-
+    box-shadow: inset 0 0 0 5px black;
 }
