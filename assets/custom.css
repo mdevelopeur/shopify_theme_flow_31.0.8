@@ -155,3 +155,36 @@
     justify-content: center;
 
 }
+
+.custom-included-options-list {
+
+   display: flex;
+
+}
+
+.custom-included-options-list-item {
+
+   display: inline-block;
+
+}
+
+.custom-product-reservation-button {
+
+
+}
+
+.custom-product-contact-block {
+
+
+}
+
+.custom-call-request-button {
+
+
+}
+
+.custom-whatsapp-button {
+
+
+}
+
