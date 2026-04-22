@@ -135,7 +135,7 @@
       v-bind:giftwrap-product-variant-id="{{ wrap_product_variant_id }}"
       v-bind:locations-enabled="{{ locations_enabled }}"
       language-url="{{ localization.language.root_url }}"
-      hidden=true
+      hidden=false
     >
       <div class="product-single-wrapper">
         <div
@@ -157,7 +157,7 @@
                 <meta itemprop="url" content="{{ shop.url }}{{ product.url }}">
                 <link itemprop="availability" href="http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}">
 
-                <div class="form-vertical">*
+                <div class="form-vertical" hidden=true>*
               
                   {% form 'product', product, id: "AddToCartForm" %}
 
