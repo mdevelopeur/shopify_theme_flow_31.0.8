@@ -141,5 +141,7 @@
     background-color: #fac5d7;
     font-size: 4cqi;
     z-index: 1;
+    align-items: center;
+    justify-content: center;
 
 }
