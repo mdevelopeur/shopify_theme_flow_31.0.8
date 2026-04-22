@@ -130,7 +130,8 @@
                 <meta itemprop="priceCurrency" content="{{ shop.currency }}">
                 <meta itemprop="url" content="{{ shop.url }}{{ product.url }}">
                 <link itemprop="availability" href="http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}">
-
+                
+                {% render product-page-details, product: product %}
                 <div class="form-vertical" hidden>
               
                   {% form 'product', product, id: "AddToCartForm" %}
