@@ -1,6 +1,9 @@
 /* Place any CSS overrides in this file. */
 
 .custom-product-page-details {
+   
+   container-type: inline-size;
+   width: 100%;
 
 }
 
