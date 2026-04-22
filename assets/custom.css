@@ -159,7 +159,7 @@
 .custom-included-options-list {
 
    display: flex;
-
+   width: 100%;
 }
 
 .custom-included-options-list-item {
@@ -171,6 +171,7 @@
 .custom-product-reservation-button button {
    
    background-color: darkpink;
+   width: 100%;
 
 }
 
