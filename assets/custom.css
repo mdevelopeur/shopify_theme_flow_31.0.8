@@ -67,6 +67,7 @@
 .custom-item-data-field {
 
    border: 0.5px solid #fac5d7;
+   width: 100%;
    display: flex;
    justify-content: space-between;
    padding: 2%;
