@@ -181,15 +181,19 @@
 
 .custom-product-contact-block {
 
+   display: flex;
 
 }
 
 .custom-call-request-button {
 
+  display: inline-block;
 
 }
 
 .custom-whatsapp-button {
+
+  display: inline-block;
 
 
 }
