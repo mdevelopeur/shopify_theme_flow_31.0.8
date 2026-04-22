@@ -31,7 +31,7 @@
     {%- case block -%}
     {%- when 'product_card_image' -%}
       <div class="grid-view-item-image" data-block-type="product_card_image"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_image","type":"product_card_image"}'{% endif %}>
-  
+      {% comment %}
         {% if enable_badges %}
           {% if product.compare_at_price_max > product.price and product.available %}
             <div class="sale-badge badge">{{ products.product.status }}</div>
@@ -41,7 +41,7 @@
             <div class="sold-out-badge badge">{{ products.product.status }}</div>
           {% endunless %}
         {% endif %}
-    
+      {% endcomment %}
         
         <div class="custom-status-badge">{{ products.product.metafields.custom.status }}hjmn</div>
         {% if settings.hover-effect and product.media.size > 1 %}
