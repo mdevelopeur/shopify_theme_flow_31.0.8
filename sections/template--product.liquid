@@ -93,6 +93,7 @@
 
   {% else %}
   <div class="wrapper-padded product-form-vue main-page-container">?
+    
     <wetheme-product-form
       inline-template
       v-bind:initial-variant-id="{{ current_variant.id }}"
@@ -110,6 +111,7 @@
       v-bind:giftwrap-product-variant-id="{{ wrap_product_variant_id }}"
       v-bind:locations-enabled="{{ locations_enabled }}"
       language-url="{{ localization.language.root_url }}"
+      hidden=true
     >
       <div class="product-single-wrapper">
         <div
