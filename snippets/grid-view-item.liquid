@@ -26,7 +26,7 @@
   data-product-id="{{ product.variants.first.id }}"
   data-product-note="note"
 >
-  <div class="custom-status-badge badge">{{ products.product.metafields.custom.status }}hjmn</div>
+  <div class="custom-status-badge">{{ products.product.metafields.custom.status }}hjmn</div>
   {%- for block in block_order -%}
     {%- case block -%}
     {%- when 'product_card_image' -%}
@@ -43,7 +43,7 @@
         {% endif %}
     
         
-        <div class="custom-status-badge badge">{{ products.product.metafields.custom.status }}hjmn</div>
+        <div class="custom-status-badge">{{ products.product.metafields.custom.status }}hjmn</div>
         {% if settings.hover-effect and product.media.size > 1 %}
           <div class="reveal">
         {% endif %}
