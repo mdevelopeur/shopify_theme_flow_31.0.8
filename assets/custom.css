@@ -168,8 +168,9 @@
 
 }
 
-.custom-product-reservation-button {
-
+.custom-product-reservation-button button {
+   
+   background-color: darkpink;
 
 }
 
