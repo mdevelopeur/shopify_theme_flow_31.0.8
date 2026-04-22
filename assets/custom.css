@@ -127,11 +127,6 @@
 
 .custom-inner-box {
 
-    width: 50%;
-    background-color: #fac5d7;
-    position: absolute;
-    top: 20px;
-    right: 50px; 
 }
 
 
@@ -143,7 +138,7 @@
     width: 35%;
     border-radius: 5%;
     background-color: #fac5d7;
-
+    font-size: 4cqi;
     z-index: 1;
 
 }
