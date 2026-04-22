@@ -93,7 +93,31 @@
 
   {% else %}
   <div class="wrapper-padded product-form-vue main-page-container">?
+      <div class="product-single-wrapper">
+        <div
+          class="grid product-single product-sticky-wrapper{% if options_block.settings.product_variant_style == 'dropdowns' %} variant-dropdown-enabled{% else %} variant-swatches-enabled{% endif %}"
+          data-section-id="{{ section.id }}"
+        >
+          <div class="grid__item {{ product_image_width }} context mobile--no-top-margin">
+            {% render 'product-media', product: product, style: style, enable_image_zoom: media_block.settings.enable_image_zoom, hide_soldout_variants: options_block.settings.hide_soldout_variants, block_attributes: media_block.shopify_attributes %}
+          </div>
+
+          <div class="grid__item {{ product_description_width }}{% if section.settings.enable_sticky %} product-sticky{% endif %}">!
+
+            <div>$
+
+              <div class="product-details-wrapper">
+              
+              </div>
+
+            </div>
+          
+          </div>
+        
+        </div>
     
+      </div>
+
     <wetheme-product-form
       inline-template
       v-bind:initial-variant-id="{{ current_variant.id }}"
