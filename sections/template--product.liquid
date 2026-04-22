@@ -133,7 +133,7 @@
                 
                 {% render 'product-page-details', product: product %}
                 <div class="form-vertical">
-              
+                                      {% render 'product-page-details', product: product %}
                   {% form 'product', product, id: "AddToCartForm" %}
 
                     <input type="hidden" name="parentName" value="{{ parentName }}" />
