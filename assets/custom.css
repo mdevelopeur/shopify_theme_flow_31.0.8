@@ -7,7 +7,7 @@
 .custom-item-data-block {
 
    display: grid;
-   
+   width: 100%;
    gap: 3%;
    margin-top: 3%;
    container-type: inline-size;
