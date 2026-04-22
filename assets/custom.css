@@ -2,8 +2,13 @@
 
 .custom-product-page-details {
    
-   container-type: inline-size;
+   display: grid;
    width: 100%;
+   gap: 3%;
+   margin-top: 3%;
+   container-type: inline-size;
+   align-items: center;
+   font-size: 5cqi; 
 
 }
 
