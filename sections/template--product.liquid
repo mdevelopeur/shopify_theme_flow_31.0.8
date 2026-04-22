@@ -157,7 +157,7 @@
                 <meta itemprop="url" content="{{ shop.url }}{{ product.url }}">
                 <link itemprop="availability" href="http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}">
 
-                <div class="form-vertical" hidden=true>*
+                <div class="form-vertical">*
               
                   {% form 'product', product, id: "AddToCartForm" %}
 
