@@ -166,6 +166,7 @@
 .custom-included-options-list-item {
 
    display: inline-block;
+   border: thin solid black;
 
 }
 
