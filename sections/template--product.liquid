@@ -132,7 +132,7 @@
                 <link itemprop="availability" href="http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}">
                 
                 {% render 'product-page-details', product: product %}
-                <div class="form-vertical" hidden>
+                <div class="form-vertical">
               
                   {% form 'product', product, id: "AddToCartForm" %}
 
