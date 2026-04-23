@@ -167,6 +167,7 @@
 .custom-included-options-list-item {
 
    display: flex;
+   container-type: inline-size;
    border: thin solid black;
    width: 25%;
    height: 25cqw;
