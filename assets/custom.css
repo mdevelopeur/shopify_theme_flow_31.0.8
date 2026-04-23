@@ -119,9 +119,7 @@
    
    display: grid;
    place-items: center;
-   position: relative;
-   outline: 5px solid blue;
-   outline-offset: -15px; 
+   position: relative; 
    z-index: 0;
 
 }
@@ -179,7 +177,7 @@
 
 .custom-included-options-list-item svg {
    
-   background-color: pink;
+   background-color: #fac5d7;
    aspect-ratio : 1 / 1;
    width: 40cqw;
    
