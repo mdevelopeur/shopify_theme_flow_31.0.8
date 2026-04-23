@@ -6,7 +6,7 @@
   <div class="custom-item-data-block">
     <div class="custom-item-title-block">
       <div class="custom-item-title-title-block">{{product.title}}</div>
-      <div class="custom-item-title-price-block">{{product.price}}</div>
+      <div class="custom-item-title-price-block">{{product.price | money}}</div>
    </div>
 
     <div class="custom-item-data-field"> 
@@ -23,7 +23,7 @@
     </div> 
     <div class="custom-item-data-field"> 
         <span>Date of Birth:</span>
-        <span>{{metafields.birthdate.value}}</span>
+        <span>{{metafields.birthdate.value | date: "%B %d, %Y"}}</span>
     </div> 
 
     <h3>What's included</h3>
