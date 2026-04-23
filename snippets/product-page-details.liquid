@@ -65,5 +65,12 @@
     </div>
 
     <div class="custom-addons-label">Add Ons</div>
+        {% for product in block.settings.addons.products %}
+           <label>
+               <input type="checkbox" name="id" value="{{ product.variants[0].id }}">
+                             {{ product.title }}
+            </label>
+
+         {% endfor %}
   </div>
 </div>
