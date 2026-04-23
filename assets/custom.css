@@ -160,15 +160,22 @@
 
    display: flex;
    width: 100cqw;
+   flex-direction: column;
 
 }
 
 .custom-included-options-list-item {
 
-   display: inline-block;
+   display: flex;
    border: thin solid black;
    width: 25%;
    height: 25cqw;
+   
+}
+
+.custom-included-options-list-item svg {
+   
+   background-color: pink;
 
 }
 
