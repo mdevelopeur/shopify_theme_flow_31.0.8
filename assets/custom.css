@@ -226,8 +226,12 @@
 
 .custom-reservation-label {
 
+   font-family: var(--header-font-stack);
+
 }
 
 .custom-addons-label {
+
+   font-family: var(--header-font-stack);
 
 }
