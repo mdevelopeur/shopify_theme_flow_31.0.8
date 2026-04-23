@@ -207,9 +207,11 @@
 
 .custom-call-request-button button {
 
+  background-color: #fac5d7;
   display: inline-block;
   height: 4cap;
   padding: 4%;
+  border-width: 0px;
 
 }
 
@@ -218,6 +220,8 @@
   display: inline-block;
   height: 4cap;
   padding: 4%;
+  border-width: 0px;
+
 }
 
 .custom-contact-label {
