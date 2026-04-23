@@ -173,7 +173,7 @@
    height: 25cqw;
    flex-direction: column;
    align-items: center;
-   font-size: 6cqw;
+   font-size: 10cqw;
 
 }
 
@@ -187,7 +187,7 @@
 }
 
 .custom-included-options-list-item p {
-   font-size: 6cqw;
+   font-size: 10cqw;
 }
 
 .custom-product-reservation-button button {
