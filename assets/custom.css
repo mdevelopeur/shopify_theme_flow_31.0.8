@@ -191,13 +191,13 @@
 
 .custom-call-request-button {
  
-  width: 35%;
+  width: fit-content;
 
 }
 
 .custom-whatsapp-button {
 
-  width: 35%;
+  width: fit-content;
 
 
 }
