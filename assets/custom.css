@@ -160,7 +160,7 @@
 
    display: flex;
    width: 100cqw;
-   
+   container-type: inline-size;
 
 }
 
