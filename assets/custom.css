@@ -228,6 +228,7 @@
   padding: 4%;
   border-width: 0px;
   font-size: 3cqw;
+  width: fit-content;
 
 }
 
@@ -239,6 +240,7 @@
   border: thin solid lightgreen;
   color: lightgreen;
   background-color: white;
+  width: fit-content;
 
 }
 
