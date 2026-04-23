@@ -65,12 +65,16 @@
     </div>
 
     <div class="custom-addons-label">Add Ons</div>
-        {% for product in block.settings.addons.products %}
-           <label>
-               <input type="checkbox" name="id" value="{{ product.variants[0].id }}">
+    <div class="custom-addons-block">
+       {%- for block in section.blocks -%}
+          {%- if block.type = 'custom-block' -%}
+             {% for product in block.settings.addons.products %}
+                <label>
+                  <input type="checkbox" name="id" value="{{ product.variants[0].id }}">
                              {{ product.title }}
-            </label>
+                </label>
 
-         {% endfor %}
+             {% endfor %}
+      </div>
   </div>
 </div>
