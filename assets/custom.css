@@ -179,8 +179,9 @@
 .custom-included-options-list-item svg {
    
    background-color: pink;
-   width: 40cqw;
    aspect-ratio : 1 / 1;
+   width: 40cqw;
+   
 
 }
 
