@@ -201,7 +201,9 @@
 .custom-product-contact-block {
 
    display: flex;
+   width: 100%;
    gap: 3%;
+   container-type: inline-size;
 
 }
 
@@ -212,6 +214,8 @@
   height: 4cap;
   padding: 4%;
   border-width: 0px;
+  width: 35%;
+  font-size: 3cqw;
 
 }
 
