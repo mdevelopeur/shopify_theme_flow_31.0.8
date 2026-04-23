@@ -189,6 +189,19 @@
    font-size: 10cqw;
 }
 
+.custom-call-request-button {
+ 
+  width: 35%;
+
+}
+
+.custom-whatsapp-button {
+
+  width: 35%;
+
+
+}
+
 .custom-product-reservation-button button {
    
    background-color: deeppink !important;
