@@ -173,7 +173,7 @@
 
 .custom-product-reservation-button button {
    
-   background-color: pink;
+   background-color: pink !important;
    width: 35%;
    height: 4cap;
 
