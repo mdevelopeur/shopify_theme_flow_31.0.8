@@ -236,7 +236,8 @@
   display: inline-block;
   height: 4cap;
   padding: 4%;
-  border-width: 0px;
+  border: thin solid lightgreen;
+  color: lightgreen;
 
 }
 
