@@ -160,7 +160,7 @@
 
    display: flex;
    width: 100cqw;
-   flex-direction: column;
+   
 
 }
 
@@ -170,7 +170,9 @@
    border: thin solid black;
    width: 25%;
    height: 25cqw;
-   
+   flex-direction: column;
+   align-items: center;
+
 }
 
 .custom-included-options-list-item svg {
