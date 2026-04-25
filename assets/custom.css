@@ -273,6 +273,7 @@
    display: flex;
    flex-wrap: wrap;
    gap: 3%;
+   container-type: inline-size;
    
 }
 
@@ -283,4 +284,9 @@
    display: flex;
    gap: 0cqw;
 
+}
+
+.custom-addons-block {
+
+  
 }
