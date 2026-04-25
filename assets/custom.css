@@ -237,7 +237,7 @@
 
   display: inline-block;
   height: 4cap;
-  padding: 2cap;
+  padding: 2cap 0cap 0cap 2cap;
   border: thin solid lightgreen;
   color: lightgreen;
   background-color: white;
