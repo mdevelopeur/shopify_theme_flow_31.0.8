@@ -266,3 +266,10 @@
    font-family: var(--header-font-stack);
 
 }
+
+. custom-addons-block {
+
+   display: inline-block;
+   gap: 3cqw;
+
+}
