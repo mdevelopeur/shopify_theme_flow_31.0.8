@@ -224,7 +224,7 @@
 
   background-color: #fac5d7;
   display: inline-block;
-  /*height: 4cap;*/
+  height: 100%;
   padding: 4%;
   border-width: 0px;
   font-size: 3cqw;
@@ -252,21 +252,21 @@
 .custom-reservation-label {
 
    font-family: var(--header-font-stack);
-   font-size: 3cqi;
+   font-size: 5cqi;
 
 }
 
 .custom-addons-label {
 
    font-family: var(--header-font-stack);
-   font-size: 3cqi;
+   font-size: 5cqi;
 
 }
 
 .custom-included-options-label {
 
    font-family: var(--header-font-stack);
-   font-size: 3cqi;
+   font-size: 5cqi;
 
 }
 
