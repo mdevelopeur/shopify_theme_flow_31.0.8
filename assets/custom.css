@@ -226,7 +226,8 @@
   background-color: #fac5d7;
   display: inline-block;
   height: 100%;
-  padding: 2 cap;
+  padding-left: 2cap;
+  padding-right: 2cap;
   border-width: 0px;
   font-size: 3cqw;
   width: fit-content;
@@ -237,7 +238,8 @@
 
   display: inline-block;
   height: 4cap;
-  padding: 2cap 0cap 0cap 2cap;
+  padding-left: 2cap;
+  padding-right: 2cap;
   border: thin solid lightgreen;
   color: lightgreen;
   background-color: white;
