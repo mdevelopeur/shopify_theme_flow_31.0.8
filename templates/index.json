@@ -223,6 +223,134 @@
         "show_view_all": true
       }
     },
+    "collection_featured_collection_hjn7tF": {
+      "type": "collection--featured-collection",
+      "custom_css": [],
+      "settings": {
+        "colors": "white",
+        "title": "British Longhair available for adoption",
+        "richtext": "",
+        "collection": "british-longhair-kittens",
+        "grid-desktop": 4,
+        "grid-tablet": 3,
+        "grid-mobile": 2,
+        "rows": 1,
+        "show-vendor": false,
+        "show_view_all": true
+      }
+    },
+    "collection_featured_collection_XWqaiq": {
+      "type": "collection--featured-collection",
+      "custom_css": [],
+      "settings": {
+        "colors": "white",
+        "title": "Maine Coon available for adoption",
+        "richtext": "",
+        "collection": "maine-coon-kittens",
+        "grid-desktop": 4,
+        "grid-tablet": 3,
+        "grid-mobile": 2,
+        "rows": 1,
+        "show-vendor": false,
+        "show_view_all": true
+      }
+    },
+    "collection_featured_collection_hKnhVt": {
+      "type": "collection--featured-collection",
+      "custom_css": [],
+      "settings": {
+        "colors": "white",
+        "title": "Munchkin available for adoption",
+        "richtext": "",
+        "collection": "munchkin-kittens",
+        "grid-desktop": 4,
+        "grid-tablet": 3,
+        "grid-mobile": 2,
+        "rows": 1,
+        "show-vendor": false,
+        "show_view_all": true
+      }
+    },
+    "collection_featured_collection_PaCrcB": {
+      "type": "collection--featured-collection",
+      "custom_css": [],
+      "settings": {
+        "colors": "white",
+        "title": "British Shorthair for adoption",
+        "richtext": "",
+        "collection": "british-shorthair-kittens",
+        "grid-desktop": 4,
+        "grid-tablet": 3,
+        "grid-mobile": 2,
+        "rows": 1,
+        "show-vendor": false,
+        "show_view_all": true
+      }
+    },
+    "collection_featured_collection_eCqXdC": {
+      "type": "collection--featured-collection",
+      "custom_css": [],
+      "settings": {
+        "colors": "white",
+        "title": "British Shorthair for adoption",
+        "richtext": "",
+        "collection": "british-shorthair-kittens",
+        "grid-desktop": 4,
+        "grid-tablet": 3,
+        "grid-mobile": 2,
+        "rows": 1,
+        "show-vendor": false,
+        "show_view_all": true
+      }
+    },
+    "collection_featured_collection_LwYCqP": {
+      "type": "collection--featured-collection",
+      "custom_css": [],
+      "settings": {
+        "colors": "white",
+        "title": "British Shorthair for adoption",
+        "richtext": "",
+        "collection": "british-shorthair-kittens",
+        "grid-desktop": 4,
+        "grid-tablet": 3,
+        "grid-mobile": 2,
+        "rows": 1,
+        "show-vendor": false,
+        "show_view_all": true
+      }
+    },
+    "collection_featured_collection_beJJNr": {
+      "type": "collection--featured-collection",
+      "custom_css": [],
+      "settings": {
+        "colors": "white",
+        "title": "British Shorthair for adoption",
+        "richtext": "",
+        "collection": "british-shorthair-kittens",
+        "grid-desktop": 4,
+        "grid-tablet": 3,
+        "grid-mobile": 2,
+        "rows": 1,
+        "show-vendor": false,
+        "show_view_all": true
+      }
+    },
+    "collection_featured_collection_TxnRTp": {
+      "type": "collection--featured-collection",
+      "custom_css": [],
+      "settings": {
+        "colors": "white",
+        "title": "British Shorthair for adoption",
+        "richtext": "",
+        "collection": "british-shorthair-kittens",
+        "grid-desktop": 4,
+        "grid-tablet": 3,
+        "grid-mobile": 2,
+        "rows": 1,
+        "show-vendor": false,
+        "show_view_all": true
+      }
+    },
     "image-image-with-text-1": {
       "type": "image--image-with-text",
       "custom_css": [],
@@ -459,6 +587,14 @@
     "image_image_with_text_mGqejU",
     "text-testimonials",
     "featured-collection-01",
+    "collection_featured_collection_hjn7tF",
+    "collection_featured_collection_XWqaiq",
+    "collection_featured_collection_hKnhVt",
+    "collection_featured_collection_PaCrcB",
+    "collection_featured_collection_eCqXdC",
+    "collection_featured_collection_LwYCqP",
+    "collection_featured_collection_beJJNr",
+    "collection_featured_collection_TxnRTp",
     "image-image-with-text-1",
     "image-gallery",
     "blog-blog-posts",
