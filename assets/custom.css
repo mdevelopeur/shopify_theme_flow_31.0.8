@@ -275,6 +275,7 @@
 
 }
 
-.custom-addons-block {
+.custom-addons-block label{
 
+   border: thin solid grey;
 }
