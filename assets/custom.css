@@ -252,19 +252,21 @@
 .custom-reservation-label {
 
    font-family: var(--header-font-stack);
-   font-size: 4 cqi;
+   font-size: 3cqi;
 
 }
 
 .custom-addons-label {
 
    font-family: var(--header-font-stack);
+   font-size: 3cqi;
 
 }
 
 .custom-included-options-label {
 
    font-family: var(--header-font-stack);
+   font-size: 3cqi;
 
 }
 
