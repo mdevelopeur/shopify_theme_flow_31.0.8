@@ -258,21 +258,21 @@
 .custom-reservation-label {
 
    font-family: var(--header-font-stack);
-   font-size: 5cqi;
+   font-size: 4cqi;
 
 }
 
 .custom-addons-label {
 
    font-family: var(--header-font-stack);
-   font-size: 5cqi;
+   font-size: 3cqi;
 
 }
 
 .custom-included-options-label {
 
    font-family: var(--header-font-stack);
-   font-size: 5cqi;
+   font-size: 3cqi;
 
 }
 
@@ -293,7 +293,7 @@
    display: flex;
    align-items: center;
    gap: 0%;
-   font-size: 2cqw;
+   font-size: 3cqw;
 
 }
 
@@ -313,7 +313,7 @@
 .custom-product-page-details .custom-item-title-title-block {
 
    display: flex;
-   font-size: 5cqi;
+   font-size: 4cqi;
    font-family: var(--header-font-stack);
    padding: 3%;
    flex-grow: 1.5;
@@ -326,7 +326,7 @@
 
 .custom-product-page-details .custom-item-title-price-block {
 
-   font-size: 4cqi;
+   font-size: 3cqi;
 
 }
 
