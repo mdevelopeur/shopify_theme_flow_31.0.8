@@ -280,6 +280,7 @@
 
    border: thin solid grey;
    white-space: nowrap;
-   padding: 0%;
+   display: flex;
+   gap: 3cqw;
 
 }
