@@ -279,7 +279,7 @@
 
 .custom-addons-block-item label{
 
-   border: thin solid grey;
+   /*border: thin solid grey;*/
    white-space: nowrap;
    display: flex;
    align-items: center;
@@ -298,5 +298,19 @@
 .custom-addons-block-item label input {
 
    margin: 1cqw;
+
+}
+
+.product-page-details .custom-item-title-title-block {
+
+   display: flex;
+   font-size: 1cqi;
+   font-family: var(--header-font-stack);
+   padding: 3%;
+   flex-grow: 1.5;
+   background-color: #fac5d7;
+   color: black;
+   height: 4cap;
+   align-items: center;
 
 }
