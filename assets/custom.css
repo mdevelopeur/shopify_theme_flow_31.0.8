@@ -304,7 +304,7 @@
 .custom-product-page-details .custom-item-title-title-block {
 
    display: flex;
-   font-size: 1cqi;
+   font-size: 5cqi;
    font-family: var(--header-font-stack);
    padding: 3%;
    flex-grow: 1.5;
