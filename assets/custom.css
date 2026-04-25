@@ -46,7 +46,7 @@
    font-size: 7cqi;
    font-family: var(--header-font-stack);
    padding: 3%;
-   
+   width: stretch;
    background-color: #fac5d7;
    color: black;
    height: 4cap;
