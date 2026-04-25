@@ -282,11 +282,12 @@
    border: thin solid grey;
    white-space: nowrap;
    display: flex;
-   gap: 0cqw;
+   gap: 0%;
 
 }
 
 .custom-addons-block {
 
+   display: flex;
   
 }
