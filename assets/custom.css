@@ -272,7 +272,7 @@
    width: 100%;
    display: flex;
    gap: 5%;
-
+   white-space: nowrap;
 }
 
 .custom-addons-block label{
