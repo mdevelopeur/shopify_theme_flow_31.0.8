@@ -270,7 +270,7 @@
 .custom-addons-block {
 
    width: 100%;
-   display: block;
+   display: grid;
    gap: 3%;
    
 }
