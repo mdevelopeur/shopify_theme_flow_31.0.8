@@ -208,7 +208,8 @@
    width: 35%;
    height: 4cap;
    border-width: 0px;
-   padding: 3cap;
+   padding-left: 3cap;
+   padding-right: 3cap;
 
 }
 
