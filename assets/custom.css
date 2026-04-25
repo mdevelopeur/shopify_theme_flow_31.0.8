@@ -70,6 +70,8 @@
    border: thin solid #fac5d7;
    align-items: center;
    justify-content: center;
+   padding-left: 2cap;
+   padding-right: 2cap;
 
 }
 
