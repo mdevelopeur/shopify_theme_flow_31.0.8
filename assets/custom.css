@@ -289,5 +289,6 @@
 .custom-addons-block {
 
    display: flex;
-  
+   gap: 0%;
+
 }
