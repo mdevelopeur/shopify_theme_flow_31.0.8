@@ -271,11 +271,13 @@
 
    width: 100%;
    display: flex;
-   gap: 5%;
-   white-space: nowrap;
+   gap: 3%;
+   
 }
 
 .custom-addons-block label{
 
    border: thin solid grey;
+   white-space: nowrap;
+
 }
