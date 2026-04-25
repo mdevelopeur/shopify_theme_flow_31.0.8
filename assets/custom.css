@@ -277,7 +277,7 @@
    
 }
 
-.custom-addons-block label{
+.custom-addons-block-item label{
 
    border: thin solid grey;
    white-space: nowrap;
@@ -291,5 +291,11 @@
 
    display: flex;
    gap: 0%;
+
+}
+
+.custom-addons-block-item input {
+
+   margin: 0px;
 
 }
