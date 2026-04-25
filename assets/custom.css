@@ -310,7 +310,7 @@
    flex-grow: 1.5;
    background-color: #fac5d7;
    color: black;
-   height: 3cap;
+   height: 3.5cap;
    align-items: center;
 
 }
@@ -318,6 +318,5 @@
 .custom-product-page-details .custom-item-title-price-block {
 
    font-size: 4cqi;
-   height: 3cap;
 
 }
