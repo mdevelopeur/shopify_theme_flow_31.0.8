@@ -282,6 +282,7 @@
    border: thin solid grey;
    white-space: nowrap;
    display: flex;
+   align-items: center;
    gap: 0%;
    font-size: 3cqw;
 
