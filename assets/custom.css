@@ -224,7 +224,7 @@
 
   background-color: #fac5d7;
   display: inline-block;
-  height: 4cap;
+  /*height: 4cap;*/
   padding: 4%;
   border-width: 0px;
   font-size: 3cqw;
@@ -252,6 +252,7 @@
 .custom-reservation-label {
 
    font-family: var(--header-font-stack);
+   font-size: 4 cqi;
 
 }
 
@@ -329,6 +330,6 @@
 
 .custom-product-page-details .custom-item-data-block { 
 
-   gap: 1cqw;
+   gap: 2cqw;
 
 }
