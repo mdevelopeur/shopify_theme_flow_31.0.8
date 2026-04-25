@@ -269,7 +269,8 @@
 
 . custom-addons-block {
 
+   width: 100%;
    display: inline-block;
-   gap: 3cqw;
+   gap: 3%;
 
 }
