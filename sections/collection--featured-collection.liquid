@@ -107,6 +107,7 @@
       {% endif %}
 
       <div class="grid__item {{ grid_item_width }} featured-product--grid-item">(2)
+              {% render 'responsive-image' with image, alt: image.alt, styles: styles, allow_stretch: true %}
               {% render 'grid-view-item', product: product, collection: collection, blocks: product_card_blocks, enable_badges: image_block.settings.enable_badges %}
         <div class="grid-view-item">
         {% render 'grid-view-item', product: product, section: section %}
