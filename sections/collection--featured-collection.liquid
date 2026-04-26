@@ -80,7 +80,7 @@
 
   {%- assign product_limit = section.settings.grid-desktop | times: section.settings.rows -%}
 
-  <div class="grid-uniform homepage-product-grid-wrapper">
+  <div class="grid-uniform homepage-product-grid-wrapper">(1)
     {% for product in collection.products limit: product_limit %}
       {%- assign grid_image_width = image_size -%}
       {% comment %}
@@ -106,7 +106,7 @@
         {% assign sold_out = false %}
       {% endif %}
 
-      <div class="grid__item {{ grid_item_width }} featured-product--grid-item">
+      <div class="grid__item {{ grid_item_width }} featured-product--grid-item">(2)
 
         <div class="grid-view-item">
           <div class="grid-view-item-image">
@@ -183,7 +183,7 @@
     {% else %}
 
       {% for i in (1..product_limit) %}
-        <div class="grid__item {{ grid_item_width }} featured-product--grid-item">
+        <div class="grid__item {{ grid_item_width }} featured-product--grid-item">(3)
           <div class="grid-view-item">
             <a href="/admin/products" class="grid-view-item__link" tabindex="-1">
               {% if image_crop %}<div class="aspect-ratio {{ image_crop }}">{% endif %}
