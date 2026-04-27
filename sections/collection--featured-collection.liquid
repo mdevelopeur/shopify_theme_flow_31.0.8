@@ -82,6 +82,7 @@
 
   <div class="grid-uniform homepage-product-grid-wrapper">(1)
     {% for product in collection.products limit: product_limit %}
+                    {% render 'grid-view-item', product: product, blocks: '', settings: settings %}
       {%- assign grid_image_width = image_size -%}
       {% comment %}
         Set the default grid_item_width if no variable is set
