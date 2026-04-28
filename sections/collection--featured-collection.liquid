@@ -107,6 +107,7 @@
       {% endif %}
 
       <div class="grid__item {{ grid_item_width }} featured-product--grid-item">
+        {% render 'grid-view-item', product: product, blocks: "product_card_image,product_card_title", settings: settings %}
         <div class="grid-view-item"></div>
         <div class="grid-view-item" style="display: none">
           <div class="grid-view-item-image">
