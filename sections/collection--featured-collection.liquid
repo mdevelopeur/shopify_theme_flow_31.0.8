@@ -80,7 +80,7 @@
 
   {%- assign product_limit = section.settings.grid-desktop | times: section.settings.rows -%}
 
-  <div class="grid-uniform homepage-product-grid-wrapper">
+  <div class="grid-uniform homepage-product-grid-wrapper">1409
     {% for product in collection.products limit: product_limit %}
       {%- assign grid_image_width = image_size -%}
       {% comment %}
@@ -136,7 +136,7 @@
             {% endif %}
 
           </div>
-                <div class="custom-item-data-block">
+                <div class="custom-item-data-block" style="display: block">
 
           <div class="custom-item-title-block" style="display: none">
              <div class="custom-item-title-title-block" data-block-type="product_card_title"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_title","type":"product_card_title"}'{% endif %}>
