@@ -80,7 +80,7 @@
 
   {%- assign product_limit = section.settings.grid-desktop | times: section.settings.rows -%}
 
-  <div class="grid-uniform homepage-product-grid-wrapper">1409
+  <div class="grid-uniform homepage-product-grid-wrapper">
     {% for product in collection.products limit: product_limit %}
       {%- assign grid_image_width = image_size -%}
       {% comment %}
@@ -106,9 +106,9 @@
         {% assign sold_out = false %}
       {% endif %}
 
-      <div class="grid__item {{ grid_item_width }} featured-product--grid-item" style="border: thin solid grey">
-        
-        <div class="grid-view-item" style="display: none">
+      <div class="grid__item {{ grid_item_width }} featured-product--grid-item">
+
+        <div class="grid-view-item">
           <div class="grid-view-item-image">
 
             {% if settings.hover-effect %}
@@ -136,34 +136,8 @@
             {% endif %}
 
           </div>
-                <div class="custom-item-data-block" style="display: none">
 
-          <div class="custom-item-title-block" style="display: none">
-             <div class="custom-item-title-title-block" data-block-type="product_card_title"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_title","type":"product_card_title"}'{% endif %}>
-                <a href="{{ product.url | within: collection }}">{{ product.title }}</a>
-</div>
-             <div class="custom-item-title-price-block" data-block-type="product_card_price"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_price","type":"product_card_price"}'{% endif %}>{{product.price | money}}</div>
-          </div>
-
-          <div class="custom-item-data-field"> 
-             <span style="font-weight: bold;">Breed:</span>
-            <span>{{metafields.breed_information.value.name.value}}</span>
-          </div> 
-          <div class="custom-item-data-field"> 
-             <span style="font-weight: bold;">Color:</span>
-             <span>{{metafields.color.value}}</span>
-          </div> 
-          <div class="custom-item-data-field"> 
-             <span style="font-weight: bold;">Gender:</span>
-            <span>{{metafields.sex.value}}</span>
-          </div> 
-          <div class="custom-item-data-field"> 
-             <span style="font-weight: bold;">Date of Birth:</span>
-             <span>{{metafields.birthdate.value | date: "%B %d, %Y"}}</span>
-          </div> 
-
-       <!-- </div> -->
-          <div class="grid-view-item--desc-wrapper" style="">
+          <div class="grid-view-item--desc-wrapper">
             <div>
               {% if section.settings.show-vendor %}
                 <div class="product-grid--vendor-text">{{ product.vendor }}</div>
@@ -171,14 +145,14 @@
               <div class="product-grid--title">
                 <a href="{{ product.url | within: collection }}">{{ product.title }}</a>
               </div>
-              <div class="product-grid--price" style="display: block">
+              <div class="product-grid--price">
                 {% render 'product-grid-item-price', product: product, collection: collection %}
               </div>
             </div>
           </div>
 
 
-            <div class="quick-add-wrapper{% if product.variants.size == 1 %} is-singular{% endif %}" style="display: none">
+            <div class="quick-add-wrapper{% if product.variants.size == 1 %} is-singular{% endif %}">
             {% if product.variants.size > 1 and product.available %}
                 <a class="quick-add-button-variants" tabindex="0" href="{{ product.url | within: collection }}">{{ 'products.product.view_options' | t }}</a>
             {% elsif product.available %}
@@ -209,7 +183,7 @@
     {% else %}
 
       {% for i in (1..product_limit) %}
-        <div class="grid__item {{ grid_item_width }} featured-product--grid-item">(3)
+        <div class="grid__item {{ grid_item_width }} featured-product--grid-item">
           <div class="grid-view-item">
             <a href="/admin/products" class="grid-view-item__link" tabindex="-1">
               {% if image_crop %}<div class="aspect-ratio {{ image_crop }}">{% endif %}
@@ -222,7 +196,7 @@
                 {% if section.settings.show-vendor %}
                   <div class="product-grid--vendor-text">{{ 'homepage.onboarding.product_vendor' | t }}</div>
                 {% endif %}
-                  <div class="product-grid--title">{{ 'homepage.onboarding.product_title' | t }}??</div>
+                  <div class="product-grid--title">{{ 'homepage.onboarding.product_title' | t }}</div>
                   <div class="product-grid--price"><span class="money">{{ 1999 | money }}</span></div>
               </div>
             </a>
