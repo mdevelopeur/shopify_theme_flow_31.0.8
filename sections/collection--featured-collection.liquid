@@ -139,6 +139,12 @@
 
           <div class="grid-view-item--desc-wrapper">
             <div>
+          <div class="custom-item-title-block">
+             <div class="custom-item-title-title-block">
+                <a href="{{ product.url | within: collection }}">{{ product.title }}</a>
+</div>
+             <div class="custom-item-title-price-block">{{product.price | money}}</div>
+          </div>
               {% if section.settings.show-vendor %}
                 <div class="product-grid--vendor-text">{{ product.vendor }}</div>
               {% endif %}
