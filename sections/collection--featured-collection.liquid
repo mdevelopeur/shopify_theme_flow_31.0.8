@@ -109,7 +109,7 @@
       <div class="grid__item {{ grid_item_width }} featured-product--grid-item">(2)
               {% render 'grid-view-item', product: product, blocks: 'product_card_image,product_card_title', settings: settings %}
         
-        {% comment %}<div class="grid-view-item">
+        <div class="grid-view-item">
           <div class="grid-view-item-image">
 
             {% if settings.hover-effect %}
@@ -209,7 +209,6 @@
           </div>
         </div>
       {% endfor %}
-      {% endcomment %}
     {% endfor %}
   </div>
 
