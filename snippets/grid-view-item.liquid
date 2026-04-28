@@ -106,9 +106,7 @@
         {%- render 'product-grid-item-price', product: product, collection: collection -%}
       </div>
     {% endcomment %}
-    {%- when 'product_card_vendor' -%}
-      <div class="product-grid--vendor-text" data-block-type="product_card_vendor"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_vendor","type":"product_card_vendor"}'{% endif %}>{{ product.vendor }}</div>
-
+    
     {% comment %}
 {%- when 'product_card_price' -%}
       <div class="product-grid--price" data-block-type="product_card_price"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_price","type":"product_card_price"}'{% endif %}>
@@ -116,7 +114,7 @@
       </div>
 {% endcomment %}
 
-    {%- when 'product_card_button' -%}
+ 
       <div class="custom-view-options-wrapper{% if product.variants.size == 1 %} is-singular{% endif %}" data-block-type="product_card_button"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_button","type":"product_card_button"}'{% endif %}>
         {% if product.available %}
             <a class="custom-view-options-button" tabindex="0" href="{{ product.url | within: collection }}">{{ 'products.product.view_options' | t }}</a>
