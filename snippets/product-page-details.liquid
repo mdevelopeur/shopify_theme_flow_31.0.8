@@ -51,6 +51,10 @@
 
     <div class="custom-product-reservation-button">
        <button>Reservation</button>
+       {% form 'product', product %}
+         {{ form | payment_button }}
+       {% endform %}
+
     </div>
 
     <div class="custom-contact-label">Have questions? <span>Request a call</span></div>
