@@ -346,7 +346,8 @@
 .custom-collection-image {
 
    width: 100%;
-   contaner-type: inline-size;
+   contaner-type: size;
+   border: thin solid black;
 
 }
 
