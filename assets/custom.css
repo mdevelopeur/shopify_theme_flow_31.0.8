@@ -387,3 +387,13 @@
    gap: 5px;
 
 }
+
+.custom-heading-stripe {
+    
+   background-color: #fac5d7;
+   font-size: 4cqi;
+   font-family: var(--header-font-stack);
+   height: 4cap;
+
+}
+   
