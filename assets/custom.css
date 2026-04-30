@@ -396,6 +396,7 @@
    font-family: var(--header-font-stack);
    height: 4cap;
    position: relative;
+   margin-bottom: 0px;
 }
 
 .custom-collection-heading {
