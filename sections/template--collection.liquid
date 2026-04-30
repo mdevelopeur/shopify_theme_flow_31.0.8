@@ -10,7 +10,7 @@
   endif
 -%}
 
-<section class="shopify-section main-page-container wrapper-padded" style="border: thin solid grey">
+<section class="shopify-section main-page-container wrapper-padded" style="border: thick solid grey">
   <div class="collection_grid{% if filtering_enabled %} filtering_enabled--{{ section.settings.desktop_position }}{% endif %} custom-collection-grid" style="border: thin solid black">
     {% unless filtering_enabled == false and header_enabled == false %}
       {% render 'main-collection-filtering-sorting' with 
