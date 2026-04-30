@@ -11,7 +11,7 @@
 -%}
 
 <section class="shopify-section main-page-container wrapper-padded">template--collection
-  <div class="collection_grid{% if filtering_enabled %} filtering_enabled--{{ section.settings.desktop_position }}{% endif %} custom-collection-grid" style="display: flex; gap: 0px">
+  <div class="collection_grid{% if filtering_enabled %} filtering_enabled--{{ section.settings.desktop_position }}{% endif %} custom-collection-grid" style="display: grid; gap: 0px">
 
     {% unless filtering_enabled == false and header_enabled == false %}
       {% render 'main-collection-filtering-sorting' with 
