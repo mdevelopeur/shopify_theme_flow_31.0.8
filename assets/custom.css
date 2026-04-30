@@ -349,12 +349,13 @@
    contaner-type: size;
    aspect-ratio: 2 / 1;
    border: thin solid black;
+   position: relative;
 
 }
 
 .custom-collection-image img {
 
-   height: 12cqw;
+   position: absolute;
 
 }
    
