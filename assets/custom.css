@@ -393,9 +393,9 @@
    background-image: linear-gradient(to right, #fbcadb, #ffe5ee);
    width: 100%;
    display: flex;
-   font-size: 4cqi;
+   font-size: 3cqi;
    font-family: var(--header-font-stack);
-   height: 4cap;
+   height: 3.5cap;
    position: relative;
    margin-bottom: 0px;
    justify-content: center;
