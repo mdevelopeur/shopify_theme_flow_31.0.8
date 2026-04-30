@@ -10,6 +10,13 @@
 {
   "wrapper": "div.collection-wrapper.wrapper",
   "sections": {
+    "advanced_layout_custom_liquid_dXHCfi": {
+      "type": "advanced-layout--custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"custom-collection-hesding\">{{collection.title}}</div>"
+      }
+    },
     "collection-header": {
       "type": "template--collection--header",
       "blocks": {
@@ -21,7 +28,6 @@
         },
         "title": {
           "type": "title",
-          "disabled": true,
           "settings": {}
         },
         "19eeeda1-0ae2-47d0-ab8d-2c7a043f0c67": {
@@ -36,6 +42,7 @@
         "19eeeda1-0ae2-47d0-ab8d-2c7a043f0c67"
       ],
       "disabled": true,
+      "custom_css": [],
       "settings": {}
     },
     "product-grid": {
@@ -161,6 +168,7 @@
     }
   },
   "order": [
+    "advanced_layout_custom_liquid_dXHCfi",
     "collection-header",
     "product-grid",
     "b62d0762-0e3e-4f60-b31b-84a6b96f6375",
