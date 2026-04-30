@@ -397,6 +397,7 @@
    height: 4cap;
    position: relative;
    margin-bottom: 0px;
+   justify-content: center;
 }
 
 .custom-collection-heading {
