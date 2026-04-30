@@ -345,6 +345,14 @@
 
 .custom-collection-image {
 
+   width: 100%;
+   contaner-type: inline-size;
+
+}
+
+.custom-collection-image img {
+
    height: 50cqw;
 
 }
+   
