@@ -28,8 +28,9 @@
 .grid-view-item {
 
    container-type: inline-size;
- 
+   wodth: 100%;
    border: thick solid red;
+   
 
 }
 
