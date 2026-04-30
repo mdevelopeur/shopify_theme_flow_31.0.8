@@ -14,7 +14,7 @@
       "type": "advanced-layout--custom-liquid",
       "name": "Custom Liquid",
       "settings": {
-        "custom_liquid": "<div class=\"custom-collection-hesding\">{{collection.title}}</div>"
+        "custom_liquid": "<div class=\"custom-collection-heading\">{{collection.title}}</div>"
       }
     },
     "collection-header": {
