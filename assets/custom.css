@@ -347,6 +347,7 @@
 
    width: 100%;
    contaner-type: size;
+   aspect-ratio: 1 / 2;
    border: thin solid black;
 
 }
