@@ -383,6 +383,6 @@
 .collection__grid {
    
    display: flex;
-   gap: 0px;
+   gap: 5px;
 
 }
