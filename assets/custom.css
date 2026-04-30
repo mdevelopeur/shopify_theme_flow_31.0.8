@@ -356,6 +356,8 @@
 .custom-collection-image img {
 
    position: absolute;
+   bottom: 0px;
+   left: 0px;
 
 }
    
