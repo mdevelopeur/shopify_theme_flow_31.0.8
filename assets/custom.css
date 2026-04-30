@@ -395,6 +395,6 @@
    font-size: 4cqi;
    font-family: var(--header-font-stack);
    height: 4cap;
-
+   position: absolute;
 }
    
