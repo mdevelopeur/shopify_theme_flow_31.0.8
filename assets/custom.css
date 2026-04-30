@@ -29,7 +29,7 @@
 
    container-type: inline-size;
    width: 100%;
-   border: thick solid red;
+   /*border: thick solid red;*/
    margin: 0px;
    
 
@@ -350,7 +350,7 @@
    width: 100%;
    contaner-type: size;
    aspect-ratio: 2 / 1;
-   border: thin solid black;
+   /*border: thin solid black;*/
    position: relative;
 
 }
@@ -360,6 +360,7 @@
    position: absolute;
    bottom: 0px;
    left: 0px;
+   z-index: 2;
 
 }
    
@@ -368,13 +369,13 @@
 
    padding: 0px;
    margin: 0px;
-   border: thin solid grey;
+   /*border: thin solid grey;*/
 
 }
 
 #CollectionProductGrid {
 
-   border: 3px solid black;
+   /*border: 3px solid black;*/
    margin: 0px;
 
 }
