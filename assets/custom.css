@@ -380,5 +380,6 @@
 .collection__grid {
    
    gap: 0px;
+   display: flex;
 
 }
