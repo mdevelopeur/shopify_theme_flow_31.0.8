@@ -41,9 +41,15 @@
         "title",
         "19eeeda1-0ae2-47d0-ab8d-2c7a043f0c67"
       ],
-      "disabled": true,
       "custom_css": [],
       "settings": {}
+    },
+    "advanced_layout_custom_liquid_VJDgb8": {
+      "type": "advanced-layout--custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"custom-collection-header\">{{collection.title}} </div>"
+      }
     },
     "product-grid": {
       "type": "template--collection",
@@ -170,6 +176,7 @@
   "order": [
     "advanced_layout_custom_liquid_dXHCfi",
     "collection-header",
+    "advanced_layout_custom_liquid_VJDgb8",
     "product-grid",
     "b62d0762-0e3e-4f60-b31b-84a6b96f6375",
     "image-with-text",
