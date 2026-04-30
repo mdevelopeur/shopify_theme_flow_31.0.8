@@ -390,7 +390,7 @@
 
 .custom-collection-header {
     
-   background-color: #fac5d7;
+   background-image: linear-gradient(to right, #fbcadb, #ffe5ee);
    width: 100%;
    display: flex;
    font-size: 4cqi;
