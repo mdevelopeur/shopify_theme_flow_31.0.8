@@ -28,7 +28,7 @@
 .grid-view-item {
 
    container-type: inline-size;
-   wodth: 100%;
+   width: 100%;
    border: thick solid red;
    margin: 0px;
    
