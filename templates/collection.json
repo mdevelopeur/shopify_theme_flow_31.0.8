@@ -10,13 +10,6 @@
 {
   "wrapper": "div.collection-wrapper.wrapper",
   "sections": {
-    "advanced_layout_custom_liquid_dXHCfi": {
-      "type": "advanced-layout--custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"custom-collection-heading\">{{collection.title}}</div>"
-      }
-    },
     "collection-header": {
       "type": "template--collection--header",
       "blocks": {
@@ -41,6 +34,7 @@
         "title",
         "19eeeda1-0ae2-47d0-ab8d-2c7a043f0c67"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {}
     },
@@ -174,7 +168,6 @@
     }
   },
   "order": [
-    "advanced_layout_custom_liquid_dXHCfi",
     "collection-header",
     "advanced_layout_custom_liquid_VJDgb8",
     "product-grid",
