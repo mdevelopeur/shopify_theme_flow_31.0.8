@@ -39,11 +39,11 @@ Accepts:
 -%}
 
 
-<div class="{{ classes }}">
+<div class="{{ classes }}">1
   {% if collection_title or collection_description %}
   <div class="collection-info">
     {% if collection_title %}
-      <div class="sitewide--title-wrapper">
+      <div class="sitewide--title-wrapper">2
         <h1 class="page--title">{{ collection.title }}??</h1>
       </div>
     {% endif %}
@@ -58,15 +58,15 @@ Accepts:
   </div>
   {% endif %}
 
-  <div class="collection-filters collection-filters__{% if desktop_position == 'sidebar' %}sidebar{% else %}topbar{% endif %}" id="main-collection-filters" data-id="{{ section.id }}">
+  <div class="collection-filters collection-filters__{% if desktop_position == 'sidebar' %}sidebar{% else %}topbar{% endif %}" id="main-collection-filters" data-id="{{ section.id }}">3
 
     <button type="button" class="mobile-facets__open btn btn--large" data-drawer-open-btn>
       {{ 'sections.collection_template.filter_and_sort' | t }}
     </button>
 
     {%- assign total_active_values = 0 -%}
-    <collection-filtering-form class="facets" data-filter-form>
-      <form id="CollectionFiltersForm" class="facets__form">
+    <collection-filtering-form class="facets" data-filter-form>4
+      <form id="CollectionFiltersForm" class="facets__form">5
         {%- if enable_filtering == true or enable_sorting == true -%}
 
           <div class="drawer__close js-drawer-close">
@@ -197,7 +197,7 @@ Accepts:
                 </noscript>
               </div>
 
-              <div class="active-facets active-facets-desktop">
+              <div class="active-facets active-facets-desktop">6
                 <a href="{{ collection.url }}?sort_by={{ sort_by }}" class="active-facets__button button button--secondary js-facet-remove">{{ 'sections.collection_template.clear_all' | t }}</a>
                 {%- for filter in collection.filters -%}
                   {%- for value in filter.active_values -%}
@@ -228,7 +228,7 @@ Accepts:
 
             {%- if enable_sorting == true -%}
               <div class="collection-filters__item sorting">
-                <div class="collection-filters__field">
+                7<div class="collection-filters__field">
                   <label class="collection-filters__label" for="SortBy">{{ 'sections.collection_template.sort_by_label' | t }}</label>
                   <div class="select">
                     {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
