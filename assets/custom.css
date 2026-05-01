@@ -408,5 +408,12 @@
    font-family: var(--header-font-stack);
 
 }
+
+.wrapper-padded {
+   
+   display: flex;
+
+}
+
    
    
