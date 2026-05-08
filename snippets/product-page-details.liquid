@@ -19,6 +19,8 @@ const isMobile = /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test
   });
 {% endjavascript %}
 
+{% render 'grid-view-item', product: product, blocks: "product_card_title", enable_badges: true %}
+
 <div class="custom-product-page-details">
   <div class="custom-item-data-block">
     <div class="custom-item-title-block">
