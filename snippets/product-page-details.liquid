@@ -4,7 +4,8 @@
 {% javascript %}
   // Your JavaScript code here
   console.log('Section-specific script loaded');
-  alert(navigator.userAgentData.mobile);
+  var mobile = (navigator.userAgentData.mobile);
+  alert(mobile);
   document.addEventListener("DOMContentLoaded", () => {
     console.log("The DOM is fully loaded and parsed!");
     // You can safely access and modify HTML elements here
