@@ -53,6 +53,14 @@
           "settings": {
             "enable_badges": true
           }
+        },   
+        "product_card_data": {
+          "type": "product_card_data",
+          "settings": {}
+        },   
+        "product_card_view_options": {
+          "type": "product_card_view_options",
+          "settings": {}
         },
         "product_card_title": {
           "type": "product_card_title",
@@ -69,6 +77,8 @@
       },
       "block_order": [
         "product_card_image",
+        "product_card_data",
+        "product_card_view_options",
         "product_card_title",
         "product_card_price",
         "product_card_button"
