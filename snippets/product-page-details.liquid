@@ -5,6 +5,10 @@
   // Your JavaScript code here
   console.log('Section-specific script loaded');
   alert("JavaScript worked!");
+  document.addEventListener("DOMContentLoaded", () => {
+    console.log("The DOM is fully loaded and parsed!");
+    // You can safely access and modify HTML elements here
+  });
 {% endjavascript %}
 
 <div class="custom-product-page-details">
