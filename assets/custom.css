@@ -426,7 +426,7 @@ shopify-accelerated-checkout,
 shopify-accelerated-checkout-cart {
   --shopify-accelerated-checkout-button-block-size: var(--button-size);
   --shopify-accelerated-checkout-button-border-radius: var(--buttons-radius);
-  --shopify-accelerated-checkout-skeleton-background-color: var(--main-text);
+  --shopify-accelerated-checkout-skeleton-background-color: red;
 }
 .template-cart .additional-checkout-buttons {
   float: none;
