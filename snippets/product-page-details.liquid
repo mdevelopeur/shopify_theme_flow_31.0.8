@@ -8,6 +8,11 @@
   document.addEventListener("DOMContentLoaded", () => {
     console.log("The DOM is fully loaded and parsed!");
     // You can safely access and modify HTML elements here
+    if (navigator.userAgentData.mobile) {
+       alert("Mobile.");
+    } else {
+       alert("Not mobile.");
+    }
   });
 {% endjavascript %}
 
