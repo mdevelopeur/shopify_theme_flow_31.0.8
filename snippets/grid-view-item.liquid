@@ -68,7 +68,7 @@
 
       </div>
  
-    {%- when 'product_card_title' -%}
+    {%- when 'product_card_data' -%}
      
        <div class="custom-item-data-block">
      
@@ -98,6 +98,7 @@
              <span>{{metafields.birthdate.value | date: "%B %d, %Y"}}</span>
           </div> 
       
+      </div>
      
       
     {% comment %}
@@ -116,7 +117,7 @@
       </div>
 {% endcomment %}
 
- 
+    {%- when 'product_card_view_options' -%} 
       <div class="custom-view-options-wrapper{% if product.variants.size == 1 %} is-singular{% endif %}" data-block-type="product_card_button"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_button","type":"product_card_button"}'{% endif %}>
         {% if product.available %}
             <a class="custom-view-options-button" tabindex="0" href="{{ product.url | within: collection }}">{{ 'products.product.view_options' | t }}</a>
@@ -129,7 +130,6 @@
           <a class="custom-sold-out-button" tabindex="0" href="{{ product.url | within: collection }}">{{ 'products.product.sold_out' | t }}</a>
         {% endif %}
       </div>
-     </div>
     {%- endcase -%}
   {%- endfor -%}
   
