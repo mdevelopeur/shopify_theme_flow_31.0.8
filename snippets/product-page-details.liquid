@@ -4,7 +4,7 @@
 {% javascript %}
   // Your JavaScript code here
   console.log('Section-specific script loaded');
-  var mobile = (navigator.userAgentData.mobile);
+  var mobile = (navigator.userAgent.mobile);
   alert(mobile);
   document.addEventListener("DOMContentLoaded", () => {
     console.log("The DOM is fully loaded and parsed!");
