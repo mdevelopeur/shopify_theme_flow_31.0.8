@@ -440,7 +440,7 @@ shopify-accelerated-checkout-cart {
 }
    
 
-.shopify-payment-button div {
+gravity-button {
   border: thick solid grey !important;
 }
 
