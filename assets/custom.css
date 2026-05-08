@@ -447,3 +447,7 @@ gravity-button {
 .additional-checkout-buttons {
   border: thick solid grey;
 }
+
+more-payment-options-link{
+    display: none;
+}
