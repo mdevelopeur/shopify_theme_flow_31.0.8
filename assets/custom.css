@@ -421,4 +421,21 @@ shopify-accelerated-checkout {
    border: thick solid green;
 
 }
+
+shopify-accelerated-checkout,
+shopify-accelerated-checkout-cart {
+  --shopify-accelerated-checkout-button-block-size: var(--button-size);
+  --shopify-accelerated-checkout-button-border-radius: var(--buttons-radius);
+  --shopify-accelerated-checkout-skeleton-background-color: var(--main-text);
+}
+.template-cart .additional-checkout-buttons {
+  float: none;
+  width: 100%;
+  max-width: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.template-cart .additional-checkout-buttons > div {
+  min-width: 300px;
+}
    
