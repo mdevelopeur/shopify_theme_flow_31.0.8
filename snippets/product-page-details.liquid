@@ -23,6 +23,7 @@ const isMobile = /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test
 
 <div class="custom-product-page-details">
   <div class="custom-item-data-block">
+    {% comment %}
     <div class="custom-item-title-block">
       <div class="custom-item-title-title-block">{{product.title}}</div>
       <div class="custom-item-title-price-block">{{product.price | money}}</div>
@@ -44,7 +45,7 @@ const isMobile = /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test
         <span>Date of Birth:</span>
         <span>{{metafields.birthdate.value | date: "%B %d, %Y"}}</span>
     </div> 
-
+    {% endcomment %}
     <div class="custom-included-options-label">What's included</div>
 
     <div class="custom-included-options-list">
