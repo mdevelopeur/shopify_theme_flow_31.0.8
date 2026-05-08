@@ -441,7 +441,7 @@ shopify-accelerated-checkout-cart {
    
 
 .shopify-payment-button div {
-  border: thick solid grey;
+  border: thick solid grey !important;
 }
 
 .additional-checkout-buttons {
