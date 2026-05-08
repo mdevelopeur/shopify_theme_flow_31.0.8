@@ -6,10 +6,12 @@
   console.log('Section-specific script loaded');
   var mobile = (navigator.userAgent.mobile);
   alert(mobile);
-  document.addEventListener("DOMContentLoaded", () => {
+
+const isMobile = /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+ document.addEventListener("DOMContentLoaded", () => {
     console.log("The DOM is fully loaded and parsed!");
     // You can safely access and modify HTML elements here
-    if (navigator.userAgentData.mobile) {
+    if (isMobile) {
        alert("Mobile.");
     } else {
        alert("Not mobile.");
