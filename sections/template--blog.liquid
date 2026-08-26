@@ -76,7 +76,7 @@
             <div class="article__featured-image-wrap">
               <a class="article__featured-image{% if settings.ken_burns_enabled %} kb-enabled{% endif %}" href="{{ article.url }}">
                 {% capture article_alt %}{{ article.image.alt | default: article.title }}{% endcapture %}
-                {% render 'responsive-image' with article.image, alt: article_alt | escape %}
+                {% render 'responsive-image' with article.image, alt: article_alt %}
               </a>
             </div>
             {% endif %}
@@ -113,7 +113,7 @@
         {% endif %}
 
         {% capture blog_sidebar_alt %}{{ section.settings.blog-sidebar-image.alt | default: shop.name }}{% endcapture %}
-        {% render 'responsive-image' with section.settings.blog-sidebar-image, alt: article.title, class: 'blog-sidebar-image', alt: blog_sidebar_alt | escape %}
+        {% render 'responsive-image' with section.settings.blog-sidebar-image, alt: blog_sidebar_alt, class: 'blog-sidebar-image' %}
 
         {% if section.settings.blog-sidebar-link %}
           </a>
@@ -300,3 +300,19 @@
     ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'responsive-image' with article.image, alt: article_alt | escape
+    %}"
+  to: "{% render 'responsive-image' with article.image, alt: article_alt %}"
+  position: 2748..2816
+- from: "{% render 'responsive-image' with section.settings.blog-sidebar-image, alt:
+    article.title, class: 'blog-sidebar-image', alt: blog_sidebar_alt | escape %}"
+  to: "{% render 'responsive-image' with section.settings.blog-sidebar-image, alt:
+    blog_sidebar_alt, class: 'blog-sidebar-image' %}"
+  position: 4017..4141
+{% endcomment %}

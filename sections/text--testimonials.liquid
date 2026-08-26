@@ -46,7 +46,7 @@
               {% assign crop = 'center' %}
             {% endif %}
             {% assign img_alt =  block.settings.image.alt | default: shop.name %}
-            {% render 'responsive-image' with block.settings.image, alt: img_alt | escape crop: 'center', default_size: '200x200', force_height: 200, force_aspect: 1, allow_stretch: true %}
+            {% render 'responsive-image' with block.settings.image, alt: img_alt, crop: 'center', default_size: '200x200', force_height: 200, force_aspect: 1, allow_stretch: true %}
           </div>
         {% endif %}
 
@@ -301,3 +301,17 @@
     ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'responsive-image' with block.settings.image, alt: img_alt | escape
+    crop: 'center', default_size: '200x200', force_height: 200, force_aspect: 1, allow_stretch:
+    true %}"
+  to: "{% render 'responsive-image' with block.settings.image, alt: img_alt, crop:
+    'center', default_size: '200x200', force_height: 200, force_aspect: 1, allow_stretch:
+    true %}"
+  position: 1845..2014
+{% endcomment %}

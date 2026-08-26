@@ -170,7 +170,7 @@ Parameters:
                     {{ media.alt }}
                   {% endif %}
                 {% endcapture %}
-                {% render 'responsive-image' with media.preview_image, class: class, alt: thumbalt | escape, default_size: '300x', props: props, blur: false, styles: styles %}
+                {% render 'responsive-image' with media.preview_image, class: class, alt: thumbalt, default_size: '300x', props: props, blur: false, styles: styles %}
               </a>
             {% endunless %}
         {% endfor %}
@@ -178,3 +178,16 @@ Parameters:
     {% endif %}
   </div>
 </div>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'responsive-image' with media.preview_image, class: class, alt:
+    thumbalt | escape, default_size: '300x', props: props, blur: false, styles: styles
+    %}"
+  to: "{% render 'responsive-image' with media.preview_image, class: class, alt: thumbalt,
+    default_size: '300x', props: props, blur: false, styles: styles %}"
+  position: 8975..9125
+{% endcomment %}
